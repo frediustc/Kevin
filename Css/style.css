@@ -1,0 +1,215 @@
+html, body {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+.btn {
+    cursor: pointer;
+}
+body{
+    font-family: Roboto, verdana, arial, serif, sans-serif;
+    background-color: #E6E8E8;
+    color: #4B5F73;
+    font-weight: 300;
+    font-size: 14px;
+}
+body.log
+{
+    background-color: #359BE9;
+    color: #F7F7F7;
+    /* The old syntax, deprecated and prefixed, for old browsers */
+   background: -moz-linear-gradient(bottom, #359BE9, #3C5DB6);
+   background: -webkit-linear-gradient(bottom, #359BE9, #3C5DB6);
+
+   /* The new syntax needed by standard-compliant browsers (Opera 12.1,
+    IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
+   background: linear-gradient(to bottom, #359BE9, #3C5DB6);
+
+}
+h2
+{
+    font-weight: 100;
+    font-size: 4em;
+}
+.btn
+{
+    font-size: 14px;
+}
+#mainMenu
+{
+    background-color: #333A4D;
+}
+#mainMenu .dropdown .btn
+{
+    background-color: #46506A;
+    color: #A2ABC2;
+}
+#main div.form-group input.form-control, select.form-control
+{
+    background-color: #70B8F0;
+    border: none;
+    color: #333A4D;
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+.alertMsg
+{
+    position: fixed;
+    width: 250px;
+    bottom:10px;
+    left: 10px;
+    z-index: 200;
+}
+.alertMsg .alert{
+    padding: 5px 10px;
+}
+.alert {
+    color: white;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+.alert-success{
+    background-color: #5AB271;
+}
+.alert-danger{
+    background-color: #E65252;
+}
+
+
+/***Forum***/
+#Global
+{
+    padding-top: 80px;
+}
+.breadcrumb{
+    border-bottom: 1px solid #D4D6D7;
+}
+.box
+{
+    background-color: #ECEEEF;
+    border-bottom: 1px solid #D4D6D7;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.title
+{
+    font-weight: 100;
+    font-size: 1.6em;
+}
+.time{
+    font-size: 12px;
+    color: #F1715D;
+}
+.topictitle{
+    color: #359BE9;
+    font-size: 1.2em;
+}
+.details{
+    background-color: #E6E8E8;
+    padding: 10px;
+}
+.topic:hover {
+    background-color: #FAFAFA;
+}
+.topic:hover .details{
+    background-color: #ECEEEF;
+}
+#Global div.form-group input.form-control, #Global select.form-control, #Global textarea{
+    background-color: #D4D6D7;
+}
+
+.msgs .his
+{
+    border-left: solid 4px #F15757;
+}
+.msgs .his .topictitle{
+    color: #F15757;
+}
+.msgs .me
+{
+    border-right: solid 4px #9557F1;
+}
+.msgs .me .topictitle{
+    color: #9557F1;
+}
+.msgs .box{
+    background-color: #FAFAFA;
+    padding:5px 10px;
+}
+
+
+/*******home***********/
+.banner
+{
+    height: 500px;
+    background-color: #272C3A;
+    background-image: url('../Media/banner.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 50px;
+}
+.banner > div{
+    background: -moz-linear-gradient(bottom left, rgba(53, 155, 233, 0.8), rgba(185, 247, 76, 0.8));
+    background: -webkit-linear-gradient(bottom left, rgba(53, 155, 233, 0.8), rgba(185, 247, 76, 0.8));
+
+    /* The new syntax needed by standard-compliant browsers (Opera 12.1,
+     IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
+    background: linear-gradient(to bottom right, rgba(53, 155, 233, 0.8), rgba(185, 247, 76, 0.8));
+    color: #121826;
+}
+.banner > div h3
+{
+    font-size: 2.3em;
+    font-weight: 100;
+}
+.banner > div .br {
+    border-radius: 30px;
+    width: 150px;
+}
+
+
+/********plans*************/
+.grey {
+    background-color: #F3F5F8;
+}
+.option div {
+    margin: 5px 0;
+}
+h5{
+    font-weight: 300;
+    color: #359BE9;
+}
+h4{
+    font-weight: 300;
+}
+.blue{
+    background-color: #359BE9;
+    color: white;
+}
+.blue strong {
+    color: #205985;
+}
+
+.rooms h2{
+    font-size: 2em;
+}
+#calendar > div.fc-toolbar.fc-header-toolbar
+{
+    padding: 10px;
+    background-color: #ECEEEF;
+    border-bottom: 1px solid #D4D6D7;
+    border-radius: 5px;
+}
+#calendar.fc.fc-unthemed.fc-ltr div.fc-view-container{
+    background-color: #ECEEEF;
+    border-bottom: 1px solid #D4D6D7;
+    border-radius: 5px;
+}
+#calendar .fc-title {
+    color: white;
+}
